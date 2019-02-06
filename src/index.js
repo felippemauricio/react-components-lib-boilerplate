@@ -1,13 +1,13 @@
 /**
- * **************************************** 
+ * ****************************************
  * Export Components based on Atomic Design
  * ****************************************
  */
 export * from './atoms';
-//export * from './molecules';
-//export * from './organisms';
-//export * from './pages';
-//export * from './templates';
+// export * from './molecules';
+// export * from './organisms';
+// export * from './pages';
+// export * from './templates';
 
 
 /**
@@ -15,7 +15,7 @@ export * from './atoms';
  * Export Quarks components
  * ************************
  */
-//export * from './quarks';
+// export * from './quarks';
 
 
 /**
@@ -23,4 +23,4 @@ export * from './atoms';
  * Export theme
  * ************************
  */
-//export * from './theme';
+// export * from './theme';

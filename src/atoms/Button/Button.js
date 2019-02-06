@@ -1,7 +1,7 @@
 import React from 'react';
 import { string } from 'prop-types';
 import { styleModifierPropTypes } from 'styled-components-modifiers';
-import ButtonModifiers, { defaultModifier } from './Button.modifiers'; 
+import ButtonModifiers, { defaultModifier } from './Button.modifiers';
 import { Button as Btn } from './Button.style';
 
 
@@ -10,7 +10,7 @@ function Button({ children, ...props }) {
     <Btn {...props}>
       {children}
     </Btn>
-  );  
+  );
 }
 
 Button.propTypes = {
