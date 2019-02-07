@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="react-components-lib" src="https://raw.githubusercontent.com/babel/logo/master/babel.png" width="546" />
+  <img alt="react-components-lib" src="https://raw.githubusercontent.com/felippemauricio/react-components-lib-boilerplate/master/docs/images/tools.jpg" width="546" />
 </p>
 
 <p align="center">
@@ -7,12 +7,24 @@
 </p>
 
 <p align="center">
-  [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/felippemauricio/promise-fn-retry/blob/master/LICENSE.md)
-  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/felippemauricio/react-components-lib-boilerplate/pulls)
+  <a href="https://github.com/felippemauricio/react-components-lib-boilerplate/blob/master/LICENSE.md">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="GitHub license" />
+  </a>
+  <a href="https://github.com/felippemauricio/react-components-lib-boilerplate/pulls">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome" />
+  </a>
 </p>
 <p align="center">
-  [![Build Status](https://travis-ci.org/felippemauricio/react-components-lib-boilerplate.svg?branch=master)](https://travis-ci.org/felippemauricio/react-components-lib-boilerplate)
-  [![devDependencies Status](https://david-dm.org/felippemauricio/react-components-lib-boilerplate/dev-status.svg)](https://david-dm.org/felippemauricio/react-components-lib-boilerplate?type=dev)
-  [![Code Style](https://badgen.net/badge/code%20style/airbnb/fd5c63)](https://github.com/airbnb/javascript)
-  [![Storybook](https://github.com/storybooks/press/blob/master/badges/storybook.svg)](link to site)
+  <a href="https://travis-ci.org/felippemauricio/react-components-lib-boilerplate">
+    <img src="https://travis-ci.org/felippemauricio/react-components-lib-boilerplate.svg?branch=master" alt="Build Status" />
+  </a>
+  <a href="https://david-dm.org/felippemauricio/react-components-lib-boilerplate?type=dev">
+    <img src="https://david-dm.org/felippemauricio/react-components-lib-boilerplate/dev-status.svg" alt="devDependencies Status" />
+  </a>
+  <a href="https://github.com/airbnb/javascript">
+    <img src="https://badgen.net/badge/code%20style/airbnb/fd5c63" alt="Code Style" />
+  </a>
+  <a href="https://github.com/felippemauricio/react-components-lib-boilerplate/pulls">
+    <img src="https://github.com/storybooks/press/blob/master/badges/storybook.svg" alt="Storybook" />
+  </a>
 </p>
