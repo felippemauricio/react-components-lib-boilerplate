@@ -19,12 +19,3 @@ export * from './atoms';
  */
 
 // export * from './quarks';
-
-
-/**
- * ************************
- * Export theme
- * ************************
- */
-
-// export * from './theme';

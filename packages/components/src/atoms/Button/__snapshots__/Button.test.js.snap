@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Render default Button 1`] = `
+exports[`Atoms/Button Render default Button 1`] = `
 .c0 {
   border: 2px solid palevioletred;
   border-radius: 3px;
@@ -18,25 +18,7 @@ exports[`Render default Button 1`] = `
 </button>
 `;
 
-exports[`Render default Button 2`] = `
-.c0 {
-  border: 2px solid blue;
-  border-radius: 3px;
-  font-size: 1em;
-  margin: 1em;
-  padding: 0.25em 1em;
-  background-color: blue;
-  color: white;
-}
-
-<button
-  className="c0"
->
-  Default Button
-</button>
-`;
-
-exports[`Render primary Button 1`] = `
+exports[`Atoms/Button Render primary Button 1`] = `
 .c0 {
   border: 2px solid palevioletred;
   border-radius: 3px;
@@ -45,24 +27,6 @@ exports[`Render primary Button 1`] = `
   padding: 0.25em 1em;
   background-color: white;
   color: palevioletred;
-}
-
-<button
-  className="c0"
->
-  Primary Button
-</button>
-`;
-
-exports[`Render primary Button 2`] = `
-.c0 {
-  border: 2px solid blue;
-  border-radius: 3px;
-  font-size: 1em;
-  margin: 1em;
-  padding: 0.25em 1em;
-  background-color: white;
-  color: blue;
 }
 
 <button

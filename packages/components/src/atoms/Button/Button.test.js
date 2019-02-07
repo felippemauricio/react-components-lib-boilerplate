@@ -6,10 +6,10 @@ import Themes from '@react-components-lib-boilerplate/themes';
 import Button from './Button';
 
 
-Object.keys(Themes).forEach(theme => {
-  test('Render default Button', () => {
+describe('Atoms/Button', () => {
+  it('Render default Button', () => {
     const tree = renderer.create(
-      <ThemeProvider theme={Themes[theme]}>
+      <ThemeProvider theme={Themes.main}>
         <Button>
           Default Button
         </Button>
@@ -18,9 +18,9 @@ Object.keys(Themes).forEach(theme => {
     expect(tree).toMatchSnapshot();
   });
 
-  test('Render primary Button', () => {
+  it('Render primary Button', () => {
     const tree = renderer.create(
-      <ThemeProvider theme={Themes[theme]}>
+      <ThemeProvider theme={Themes.main}>
         <Button modifiers="primary">
           Primary Button
         </Button>
@@ -29,10 +29,10 @@ Object.keys(Themes).forEach(theme => {
     expect(tree).toMatchSnapshot();
   });
 
-  test('Button text are correct', () => {
+  it('Button text are correct', () => {
     const buttonText = 'Hello World';
     const { root: instance } = renderer.create(
-      <ThemeProvider theme={Themes[theme]}>
+      <ThemeProvider theme={Themes.main}>
         <Button>
           {buttonText}
         </Button>
