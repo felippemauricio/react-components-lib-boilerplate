@@ -4,7 +4,7 @@ import ButtonModifiers from './Button.modifiers';
 
 
 const Button = styled.button`
-  border: 2px solid palevioletred;
+  border: 2px solid ${({ theme }) => theme.palette.default[0]};
   border-radius: 3px;
   font-size: 1em;
   margin: 1em;
