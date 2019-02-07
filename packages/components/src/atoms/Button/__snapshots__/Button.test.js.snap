@@ -1,37 +1,107 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Atoms/Button Render default Button 1`] = `
-.c0 {
-  border: 2px solid palevioletred;
-  border-radius: 3px;
-  font-size: 1em;
-  margin: 1em;
-  padding: 0.25em 1em;
-  background-color: palevioletred;
-  color: white;
+initialize {
+  "0": Object {
+    "attribs": Object {
+      "class": "sc-bdVaJa bZoSfA",
+    },
+    "children": Array [
+      Object {
+        "data": "Default Button",
+        "next": null,
+        "parent": [Circular],
+        "prev": null,
+        "type": "text",
+      },
+    ],
+    "name": "button",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": null,
+    "prev": null,
+    "root": Object {
+      "attribs": Object {},
+      "children": Array [
+        [Circular],
+      ],
+      "name": "root",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
+    },
+    "type": "tag",
+    "x-attribsNamespace": Object {
+      "class": undefined,
+    },
+    "x-attribsPrefix": Object {
+      "class": undefined,
+    },
+  },
+  "_root": [Circular],
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "normalizeWhitespace": false,
+    "withDomLvl1": true,
+    "xml": false,
+  },
 }
-
-<button
-  className="c0"
->
-  Default Button
-</button>
 `;
 
 exports[`Atoms/Button Render primary Button 1`] = `
-.c0 {
-  border: 2px solid palevioletred;
-  border-radius: 3px;
-  font-size: 1em;
-  margin: 1em;
-  padding: 0.25em 1em;
-  background-color: white;
-  color: palevioletred;
+initialize {
+  "0": Object {
+    "attribs": Object {
+      "class": "sc-bdVaJa hHrbGb",
+    },
+    "children": Array [
+      Object {
+        "data": "Primary Button",
+        "next": null,
+        "parent": [Circular],
+        "prev": null,
+        "type": "text",
+      },
+    ],
+    "name": "button",
+    "namespace": "http://www.w3.org/1999/xhtml",
+    "next": null,
+    "parent": null,
+    "prev": null,
+    "root": Object {
+      "attribs": Object {},
+      "children": Array [
+        [Circular],
+      ],
+      "name": "root",
+      "namespace": "http://www.w3.org/1999/xhtml",
+      "next": null,
+      "parent": null,
+      "prev": null,
+      "type": "root",
+      "x-attribsNamespace": Object {},
+      "x-attribsPrefix": Object {},
+    },
+    "type": "tag",
+    "x-attribsNamespace": Object {
+      "class": undefined,
+    },
+    "x-attribsPrefix": Object {
+      "class": undefined,
+    },
+  },
+  "_root": [Circular],
+  "length": 1,
+  "options": Object {
+    "decodeEntities": true,
+    "normalizeWhitespace": false,
+    "withDomLvl1": true,
+    "xml": false,
+  },
 }
-
-<button
-  className="c0"
->
-  Primary Button
-</button>
 `;

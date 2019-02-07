@@ -1,5 +1,5 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
+import { render, shallow } from 'enzyme';
 import 'jest-styled-components';
 import { ThemeProvider } from 'styled-components';
 import Themes from '@react-components-lib-boilerplate/themes';
@@ -8,40 +8,48 @@ import Button from './Button';
 
 describe('Atoms/Button', () => {
   it('Render default Button', () => {
-    const tree = renderer.create(
+    const wrapper = render(
       <ThemeProvider theme={Themes.main}>
         <Button>
           Default Button
         </Button>
       </ThemeProvider>
-    ).toJSON();
-    expect(tree).toMatchSnapshot();
+    );
+    expect(wrapper).toMatchSnapshot();
   });
 
   it('Render primary Button', () => {
-    const tree = renderer.create(
+    const wrapper = render(
       <ThemeProvider theme={Themes.main}>
         <Button modifiers="primary">
           Primary Button
         </Button>
       </ThemeProvider>
-    ).toJSON();
-    expect(tree).toMatchSnapshot();
+    );
+    expect(wrapper).toMatchSnapshot();
   });
 
   it('Button text are correct', () => {
     const buttonText = 'Hello World';
-    const { root: instance } = renderer.create(
+    const wrapper = render(
       <ThemeProvider theme={Themes.main}>
         <Button>
           {buttonText}
         </Button>
       </ThemeProvider>
     );
-    const hasTextInsideButton = instance.find((el) => el.type === 'button'
-      && el.children
-      && el.children[0] === buttonText
+    const textInsideButton = wrapper.text();
+    expect(textInsideButton).toBe(buttonText);
+  });
+
+  it('Button are clickable', () => {
+    const onClick = jest.fn();
+    const wrapper = shallow(
+      <Button onClick={onClick}>
+        Primary Button
+      </Button>
     );
-    expect(hasTextInsideButton).toBeTruthy();
+    wrapper.simulate('click');
+    expect(onClick).toHaveBeenCalled();
   });
 });
