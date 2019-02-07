@@ -1,74 +1,8 @@
 {
-  "name": "react-components-lib-boilerplate",
-  "version": "1.0.0",
-  "description": "A boilerplate to build a React component library.",
-  "main": "lib/index.js",
-  "scripts": {
-    "build": "webpack --mode production",
-    "lint": "eslint .",
-    "storybook:build": "build-storybook",
-    "storybook:start": "start-storybook -p 6006",
-    "test": "jest"
-  },
-  "keywords": [
-    "boilerplate",
-    "react",
-    "components",
-    "library",
-    "styled-components",
-    "eslint",
-    "storybook"
-  ],
-  "author": {
-    "name": "Felippe Maurício",
-    "email": "felippemauriciov@gmail.com",
-    "url": "https://github.com/felippemauricio"
-  },
-  "bugs": {
-    "url": "https://github.com/felippemauricio/react-components-lib-boilerplate/issues"
-  },
-  "homepage": "https://github.com/felippemauricio/react-components-lib-boilerplate#readme",
-  "license": "MIT",
-  "dependencies": {
-    "polished": "^2.3.3",
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0",
-    "styled-components": "^4.1.3",
-    "styled-components-modifiers": "^1.1.0",
-    "styled-theme": "^0.3.3",
-    "styled-tools": "^1.7.1"
-  },
-  "peerDependencies": {
-    "polished": "^2.3.3",
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0",
-    "styled-components": "^4.1.3",
-    "styled-components-modifiers": "^1.1.0",
-    "styled-theme": "^0.3.3",
-    "styled-tools": "^1.7.1"
-  },
+  "name": "root",
+  "private": true,
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/preset-env": "^7.3.1",
-    "@babel/preset-react": "^7.0.0",
-    "@storybook/addons": "^4.1.11",
-    "@storybook/addon-actions": "^4.1.11",
-    "@storybook/addon-links": "^4.1.11",
-    "@storybook/react": "^4.1.11",
-    "babel-eslint": "^10.0.1",
-    "babel-jest": "^24.1.0",
-    "babel-loader": "^8.0.5",
-    "eslint": "^5.13.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-loader": "^2.1.2",
-    "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.12.4",
-    "jest": "^24.1.0",
-    "jest-styled-components": "^6.3.1",
-    "react-test-renderer": "^16.8.1",
-    "url-loader": "^1.1.2",
-    "webpack": "^4.29.2",
-    "webpack-cli": "^3.2.3"
-  }
+    "lerna": "^3.10.7"
+  },
+  "workspaces": ["packages/*"]
 }
