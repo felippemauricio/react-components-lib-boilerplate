@@ -6,13 +6,14 @@ import Button from './Button';
 
 
 storiesOf('Button', module)
-  .add('Button Default', () => (
+  .addDecorator(story => (
     <ThemeProvider theme={Themes.main}>
-      <Button>Default Button</Button>
+      {story()}
     </ThemeProvider>
   ))
+  .add('Button Default', () => (
+    <Button>Default Button</Button>
+  ))
   .add('Button Primary', () => (
-    <ThemeProvider theme={Themes.main}>
-      <Button modifiers="primary">Button Primary</Button>
-    </ThemeProvider>
+    <Button modifiers="primary">Button Primary</Button>
   ));
