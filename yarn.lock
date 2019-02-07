@@ -1655,6 +1655,20 @@
     react-inspector "^2.3.0"
     uuid "^3.3.2"
 
+"@storybook/addon-backgrounds@^4.1.11":
+  version "4.1.11"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-backgrounds/-/addon-backgrounds-4.1.11.tgz#d8ade3320a5680da2f35e08bdbe5ed5740233ae5"
+  integrity sha512-XgRGVtptWhDZfBHS8tbqCzb+3ms/5GwZzluriBoiy93fJ4w+wrtt/mOjFbICdkwdZr+9IChPtjftiHTyIjmCaw==
+  dependencies:
+    "@emotion/styled" "^0.10.6"
+    "@storybook/addons" "4.1.11"
+    "@storybook/core-events" "4.1.11"
+    core-js "^2.5.7"
+    eventemitter3 "^3.1.0"
+    global "^4.3.2"
+    prop-types "^15.6.2"
+    util-deprecate "^1.0.2"
+
 "@storybook/addon-links@^4.1.11":
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/@storybook/addon-links/-/addon-links-4.1.11.tgz#50e782eba46de3aac91f05a26ca92e2a5d13aa19"
