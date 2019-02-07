@@ -1,3 +1,4 @@
+.storybook/
 src/
 tests/
 .babelrc
@@ -13,3 +14,4 @@ package-lock.json
 yarn.lock
 yarn-error.log
 *.log
+storybook-static/

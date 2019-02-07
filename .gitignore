@@ -129,5 +129,6 @@ typings/
 
 package-lock.json
 lib/
+storybook-static/
 
 # End of https://www.gitignore.io/api/node,linux,macos
