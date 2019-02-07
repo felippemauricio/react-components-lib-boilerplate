@@ -1,5 +1,5 @@
 const main = require('./main');
-
+const blackFriday = require('./blackFriday');
 
 /**
  * Import others themes here
@@ -8,4 +8,5 @@ const main = require('./main');
 
 module.exports = {
   main,
+  blackFriday,
 };
