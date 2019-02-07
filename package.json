@@ -3,7 +3,14 @@
   "version": "1.0.0",
   "description": "A boilerplate to build a React component library.",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build",
+    "lint": "lerna run lint",
+    "storybook:build": "lerna run storybook:build",
+    "storybook:start": "lerna run storybook:start",
+    "test": "lerna run test"
+  },
   "keywords": [
     "boilerplate",
     "react",
