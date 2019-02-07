@@ -2,9 +2,7 @@
   "name": "@react-components-lib-boilerplate/themes",
   "version": "1.0.0",
   "description": "A boilerplate to build a React component library.",
-  "main": "lib/index.js",
-  "scripts": {
-  },
+  "main": "src/index.js",
   "keywords": [
     "boilerplate",
     "react",

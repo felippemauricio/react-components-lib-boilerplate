@@ -1,6 +1,28 @@
 {
-  "name": "root",
+  "name": "@react-components-lib-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate to build a React component library.",
   "private": true,
+  "scripts": {},
+  "keywords": [
+    "boilerplate",
+    "react",
+    "components",
+    "library",
+    "styled-components",
+    "eslint",
+    "storybook"
+  ],
+  "author": {
+    "name": "Felippe Maurício",
+    "email": "felippemauriciov@gmail.com",
+    "url": "https://github.com/felippemauricio"
+  },
+  "bugs": {
+    "url": "https://github.com/felippemauricio/react-components-lib-boilerplate/issues"
+  },
+  "homepage": "https://github.com/felippemauricio/react-components-lib-boilerplate/#readme",
+  "license": "MIT",
   "devDependencies": {
     "lerna": "^3.10.7"
   },
