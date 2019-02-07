@@ -1,4 +1,4 @@
-const Default = require('./default');
+const main = require('./main');
 
 
 /**
@@ -7,5 +7,5 @@ const Default = require('./default');
 
 
 module.exports = {
-  Default,
+  main,
 };

@@ -1,5 +1,5 @@
 {
-  "name": "@react-components-lib-boilerplate",
+  "name": "react-components-lib-boilerplate",
   "version": "1.0.0",
   "description": "A boilerplate to build a React component library.",
   "private": true,

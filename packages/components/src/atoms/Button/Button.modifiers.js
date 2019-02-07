@@ -1,12 +1,11 @@
-
 const ButtonModifiers = {
-  default: () => `
-    background-color: palevioletred;
-    color: white;
+  default: ({ theme }) => `
+    background-color: ${theme.palette.default[0]};
+    color: ${theme.palette.default[1]};
   `,
-  primary: () => `
-    background-color: white;
-    color: palevioletred;
+  primary: ({ theme }) => `
+    background-color: ${theme.palette.primary[0]};
+    color: ${theme.palette.primary[1]};
   `,
 };
 

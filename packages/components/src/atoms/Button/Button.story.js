@@ -1,12 +1,18 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
+import { ThemeProvider } from 'styled-components';
+import Themes from '@react-components-lib-boilerplate/themes';
 import Button from './Button';
 
 
 storiesOf('Button', module)
   .add('Button Default', () => (
-    <Button>Default Button</Button>
+    <ThemeProvider theme={Themes.main}>
+      <Button>Default Button</Button>
+    </ThemeProvider>
   ))
   .add('Button Primary', () => (
-    <Button modifiers="primary">Button Primary</Button>
+    <ThemeProvider theme={Themes.main}>
+      <Button modifiers="primary">Button Primary</Button>
+    </ThemeProvider>
   ));
