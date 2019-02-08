@@ -2,20 +2,9 @@ import React from 'react';
 import { render, shallow } from 'enzyme';
 import 'jest-styled-components';
 import { ThemeProvider } from 'styled-components';
-//import Themes from '@react-components-lib-boilerplate/themes';
+import Themes from '@react-components-lib-boilerplate/themes';
 import Button from './Button';
 
-
-const Themes = {
-  main: {
-    palette: {
-      default: ['red', 'blue']
-    },
-    fonts: {
-      default: 'Arial'
-    },
-  },
-};
 
 describe('Atoms/Button', () => {
   it('Render default Button', () => {
