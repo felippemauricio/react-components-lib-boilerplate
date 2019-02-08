@@ -4,7 +4,8 @@
   "description": "A boilerplate to build a React component library.",
   "main": "lib/index.js",
   "scripts": {
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "lint": "eslint ."
   },
   "keywords": [
     "boilerplate",
@@ -40,7 +41,13 @@
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.3.1",
     "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
     "file-loader": "^3.0.1",
     "webpack": "^4.29.3",
     "webpack-cli": "^3.2.3"
