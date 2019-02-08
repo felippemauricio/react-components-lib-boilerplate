@@ -12,26 +12,30 @@ module.exports = {
         },
       },
       {
-        test: /\.(png|gif|jpg|svg)$/,
-        use: {
-          loader: 'url-loader',
+        test: /\.(gif|eot|woff|woff2|ttf|svg)$/,
+        use: [{
+          loader: 'file-loader',
           options: {
-            limit: 50000,
-          },
-        },
-      },
+            name: '[name].[ext]',
+            outputPath: 'fonts/'
+          }
+        }]
+      }
     ],
   },
   resolve: {
     extensions: [
-      '.scss',
       '.js',
-      '.json',
-      '.png',
       '.gif',
-      '.jpg',
+      '.woff',
+      '.woff2',
+      '.ttf',
+      '.eot',
       '.svg',
     ],
+    alias: {
+      Fonts: path.resolve(__dirname, 'public/fonts/'),
+    },
   },
   output: {
     path: path.resolve(__dirname, 'lib/'),
@@ -39,12 +43,8 @@ module.exports = {
     libraryTarget: 'umd',
   },
   externals: [
-    'polished',
     'react',
     'react-dom',
     'styled-components',
-    'styled-components-modifiers',
-    'styled-theme',
-    'styled-tools',
   ],
 };

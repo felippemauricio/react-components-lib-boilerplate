@@ -4,7 +4,7 @@ exports[`Atoms/Button Render default Button 1`] = `
 initialize {
   "0": Object {
     "attribs": Object {
-      "class": "sc-bdVaJa bZoSfA",
+      "class": "sc-bdVaJa dhZyVc",
     },
     "children": Array [
       Object {
@@ -57,7 +57,7 @@ exports[`Atoms/Button Render primary Button 1`] = `
 initialize {
   "0": Object {
     "attribs": Object {
-      "class": "sc-bdVaJa hHrbGb",
+      "class": "sc-bdVaJa dhZyVc",
     },
     "children": Array [
       Object {
