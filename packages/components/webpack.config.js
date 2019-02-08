@@ -44,6 +44,7 @@ module.exports = {
     'react-dom',
     'styled-components',
     'styled-components-modifiers',
+    'styled-theme',
     'styled-tools',
   ],
 };
