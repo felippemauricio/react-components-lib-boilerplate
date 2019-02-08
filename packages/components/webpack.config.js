@@ -7,14 +7,6 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        exclude: /node_modules/,
-        enforce: "pre",
-        use: {
-          loader: "eslint-loader",
-        },
-      },
-      {
-        test: /\.js$/,
         use: {
           loader: 'babel-loader',
         },
