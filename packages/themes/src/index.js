@@ -1,6 +1,11 @@
-const main = require('./main');
+import { main } from './themes-conf';
+import GlobalStyle from './global-style';
 
 
-module.exports = {
+const Themes =  {
   main,
 };
+
+
+export { GlobalStyle };
+export default Themes;
