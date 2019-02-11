@@ -28,3 +28,17 @@
     <img src="https://github.com/storybooks/press/blob/master/badges/storybook.svg" alt="Storybook" />
   </a>
 </p>
+
+## Motivation
+
+To finish with reworking when working with micro front ends, it is necessary to share components between different projects. So I created this project to don\`t repeat confs  on new libs and facilitate the work of new developers.
+
+
+### How is the repo structured?
+
+This repo is managed as a [monorepo](https://github.com/babel/babel/blob/master/doc/design/monorepo.md) like Babel Project that is composed of two packages, themes and components.
+
+## License
+
+Licensed under the MIT License, Copyright © 2019-present Felippe Maurício.
+
