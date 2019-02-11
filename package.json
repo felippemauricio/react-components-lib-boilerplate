@@ -33,5 +33,7 @@
   "devDependencies": {
     "lerna": "^3.10.7"
   },
-  "workspaces": ["packages/*"]
+  "workspaces": [
+    "packages/*"
+  ]
 }
