@@ -47,6 +47,38 @@ To finish with reworking when working with micro front ends, it is necessary to 
 
 This repo is managed as a [monorepo](https://github.com/felippemauricio/react-components-lib-boilerplate/blob/master/docs/monorepo.md) that is composed of two packages: [**themes**](https://github.com/felippemauricio/react-components-lib-boilerplate/tree/master/packages/themes) and [**components**](https://github.com/felippemauricio/react-components-lib-boilerplate/tree/master/packages/components).
 
+## How to build project?
+
+* You need to run this command before the `storybook`, `lint` or `test` commands, becouse it is necessary to create links.
+
+```sh
+  yarn build
+```
+
+## How to build storybook?
+
+```sh
+  yarn storybook:build
+```
+
+## How to show storybook?
+
+```sh
+  yarn storybook:start
+```
+
+## How to run lint?
+
+```sh
+  yarn lint
+```
+
+## How to run tests?
+
+```sh
+  yarn test
+```
+
 ## License
 
 Licensed under the MIT License, Copyright © 2019-present Felippe Maurício.
