@@ -59,7 +59,7 @@ You need to import the **Theme** of `@react-components-lib-boilerplate/themes` a
 
 ## How is the component structured?
 
-We recommend that your components have the following structure, like Button.
+We recommend that your components have the following structure, like a Button example.
 
 ```
   /components
@@ -75,8 +75,12 @@ We recommend that your components have the following structure, like Button.
 ```
 
 Where:
-- Component.js: Component code, with the `PropTypes` and `DefaultProps`
-- Component.modifiers.js: Add the component modifiers, using `styled-components-modifiers` lib
+- **Button.js**: Component code, with the `PropTypes` and `DefaultProps`. [example](https://github.com/felippemauricio/react-components-lib-boilerplate/blob/master/packages/components/src/atoms/Button/Button.js)
+- **Button.modifiers.js**: The component modifiers, using `styled-components-modifiers` lib. [example](https://github.com/felippemauricio/react-components-lib-boilerplate/blob/master/packages/components/src/atoms/Button/Button.modifiers.js)
+- **Button.story.js**: The storybook of component. [example](https://github.com/felippemauricio/react-components-lib-boilerplate/blob/master/packages/components/src/atoms/Button/Button.story.js)
+- **Button.style.js**: The styled-components. [example](https://github.com/felippemauricio/react-components-lib-boilerplate/blob/master/packages/components/src/atoms/Button/Button.style.js)
+- **Button.test.js**: The tests of components. [example](https://github.com/felippemauricio/react-components-lib-boilerplate/blob/master/packages/components/src/atoms/Button/Button.test.js)
+- **index.js**: Export the **Button.js**. [example](https://github.com/felippemauricio/react-components-lib-boilerplate/blob/master/packages/components/src/atoms/Button/index.js)
 
 ## License
 
