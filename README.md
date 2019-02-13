@@ -39,7 +39,7 @@ To finish with reworking when working with micro front ends, it is necessary to 
 ## How to create a project using this boilerplate?
 
 1. Clone this repository.
-2. Run the `change-name script` to change project name(more info).
+2. Run the `script-name-replace` to change project name([more](https://github.com/felippemauricio/react-components-lib-boilerplate/blob/master/docs/script-name-replace.md)).
 3. Modify and create themes on theme package.
 4. Modify and create components on components package.
 
