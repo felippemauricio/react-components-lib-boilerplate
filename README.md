@@ -33,11 +33,16 @@
 
 To finish with reworking when working with micro front ends, it is necessary to share components between different projects. So I created this project to don\`t repeat confs  on new libs and facilitate the work of new developers.
 
-## How to use?
+## How to create a project using this boilerplate?
+
+1. Clone this repository.
+2. Run the `change-name script` to change project name(more info).
+3. Modify and create themes on theme package.
+4. Modify and create components on components package.
 
 ## How is the repo structured?
 
-This repo is managed as a [monorepo](https://github.com/felippemauricio/react-components-lib-boilerplate/blob/master/docs/monorepo.md) that is composed of two packages, [**themes**](https://github.com/felippemauricio/react-components-lib-boilerplate/blob/master/packages/themes/README.md) and [**components**](https://github.com/felippemauricio/react-components-lib-boilerplate/blob/master/packages/components/README.md).
+This repo is managed as a [monorepo](https://github.com/felippemauricio/react-components-lib-boilerplate/blob/master/docs/monorepo.md) that is composed of two packages: [**themes**](https://github.com/felippemauricio/react-components-lib-boilerplate/tree/master/packages/themes) and [**components**](https://github.com/felippemauricio/react-components-lib-boilerplate/tree/master/packages/components).
 
 ## License
 

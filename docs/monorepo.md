@@ -26,9 +26,9 @@ This is quite taboo but let's look at the pros and cons:
 
 Other open source projects that uses a monorepo.
 
-- [Babel](https://github.com/babel/babel/tree/master/packages);
-- [React](https://github.com/facebook/react/tree/master/packages);
-- [Meteor](https://github.com/meteor/meteor/tree/devel/packages);
+- [Babel](https://github.com/babel/babel/tree/master/packages)
+- [React](https://github.com/facebook/react/tree/master/packages)
+- [Meteor](https://github.com/meteor/meteor/tree/devel/packages)
 
 ## Previous discussion
 
