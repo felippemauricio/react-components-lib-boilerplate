@@ -46,11 +46,11 @@ You need to import the **Theme** of `@react-components-lib-boilerplate/themes` a
   import React from 'react';
   import { ThemeProvider } from 'styled-components';
   import { Button } from '@react-components-lib-boilerplate/components';
-  import Theme from '@react-components-lib-boilerplate/themes';
+  import Themes from '@react-components-lib-boilerplate/themes';
 
   function MyComponent() {
     return (
-      <ThemeProvider theme={Theme.main}>
+      <ThemeProvider theme={Themes.main}>
         <Button>Click Me</Button>
       </ThemeProvider>
     );
