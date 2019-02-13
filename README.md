@@ -37,7 +37,7 @@ To finish with reworking when working with micro front ends, it is necessary to 
 
 ## How is the repo structured?
 
-This repo is managed as a [monorepo](https://github.com/babel/babel/blob/master/doc/design/monorepo.md) that is composed of two packages, themes and components.
+This repo is managed as a [monorepo](https://github.com/felippemauricio/react-components-lib-boilerplate/blob/master/docs/monorepo.md) that is composed of two packages, [**themes**](https://github.com/felippemauricio/react-components-lib-boilerplate/blob/master/packages/themes/README.md) and [**components**](https://github.com/felippemauricio/react-components-lib-boilerplate/blob/master/packages/components/README.md).
 
 ## License
 
