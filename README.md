@@ -24,7 +24,10 @@
   <a href="https://github.com/airbnb/javascript">
     <img src="https://badgen.net/badge/code%20style/airbnb/fd5c63" alt="Code Style" />
   </a>
-  <a href="https://github.com/felippemauricio/react-components-lib-boilerplate/pulls">
+  <a href="https://github.com/facebook/jest">
+    <img src="https://img.shields.io/badge/tested_with-jest-99424f.svg" alt="Tested with jest" />
+  </a>
+  <a href="https://storybook.js.org/">
     <img src="https://github.com/storybooks/press/blob/master/badges/storybook.svg" alt="Storybook" />
   </a>
 </p>

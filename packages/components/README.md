@@ -1,8 +1,8 @@
 # @react-components-lib-boilerplate/components
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/felippemauricio/react-components-lib-boilerplate/blob/master/LICENSE.md)
-[![Build Status](https://travis-ci.org/felippemauricio/promise-fn-retry.svg?branch=master)](https://travis-ci.org/felippemauricio/promise-fn-retry)
-[![devDependencies Status](https://david-dm.org/felippemauricio/react-components-lib-boilerplate/tree/master/packages/components/dev-status.svg)](https://david-dm.org/felippemauricio/react-components-lib-boilerplate/tree/master/packages/components?type=dev)
-[![Coverage Status](https://coveralls.io/repos/github/felippemauricio/promise-fn-retry/badge.svg?branch=master)](https://coveralls.io/github/felippemauricio/promise-fn-retry?branch=master)
+[![Build Status](https://travis-ci.org/felippemauricio/react-components-lib-boilerplate.svg?branch=master)](https://travis-ci.org/felippemauricio/react-components-lib-boilerplate)
+[![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
+[![Storybook](https://github.com/storybooks/press/blob/master/badges/storybook.svg)](https://storybook.js.org)
 [![Code Style](https://badgen.net/badge/code%20style/airbnb/fd5c63)](https://github.com/airbnb/javascript)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/felippemauricio/react-components-lib-boilerplate/pulls)
 
@@ -48,10 +48,20 @@ You need to import the **Theme** of `@react-components-lib-boilerplate/themes` a
   import { Button } from '@react-components-lib-boilerplate/components';
   import Themes from '@react-components-lib-boilerplate/themes';
 
+  // Other component example
   function MyComponent() {
     return (
-      <ThemeProvider theme={Themes.main}>
+      <div>
         <Button>Click Me</Button>
+      </div>
+    );
+  }
+
+  // App.js
+  function App() {
+    return (
+      <ThemeProvider theme={Themes.main}>
+        <MyComponent /> // Inside a ThemeProvider
       </ThemeProvider>
     );
   }
@@ -62,7 +72,7 @@ You need to import the **Theme** of `@react-components-lib-boilerplate/themes` a
 We recommend that your components have the following structure, like a Button example.
 
 ```
-  /components
+  /src
     /atoms
       /Button
         Button.js

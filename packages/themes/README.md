@@ -1,8 +1,6 @@
 # @react-components-lib-boilerplate/themes
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/felippemauricio/react-components-lib-boilerplate/blob/master/LICENSE.md)
-[![Build Status](https://travis-ci.org/felippemauricio/promise-fn-retry.svg?branch=master)](https://travis-ci.org/felippemauricio/promise-fn-retry)
-[![devDependencies Status](https://david-dm.org/felippemauricio/react-components-lib-boilerplate/tree/master/packages/components/dev-status.svg)](https://david-dm.org/felippemauricio/react-components-lib-boilerplate/tree/master/packages/components?type=dev)
-[![Coverage Status](https://coveralls.io/repos/github/felippemauricio/promise-fn-retry/badge.svg?branch=master)](https://coveralls.io/github/felippemauricio/promise-fn-retry?branch=master)
+[![Build Status](https://travis-ci.org/felippemauricio/react-components-lib-boilerplate.svg?branch=master)](https://travis-ci.org/felippemauricio/react-components-lib-boilerplate)
 [![Code Style](https://badgen.net/badge/code%20style/airbnb/fd5c63)](https://github.com/airbnb/javascript)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/felippemauricio/react-components-lib-boilerplate/pulls)
 

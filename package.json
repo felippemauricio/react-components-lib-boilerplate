@@ -31,7 +31,7 @@
   "homepage": "https://github.com/felippemauricio/react-components-lib-boilerplate/#readme",
   "license": "MIT",
   "devDependencies": {
-    "lerna": "^3.10.7"
+    "lerna": "^3.11.1"
   },
   "workspaces": [
     "packages/*"
