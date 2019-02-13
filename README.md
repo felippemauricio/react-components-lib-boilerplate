@@ -47,37 +47,51 @@ To finish with reworking when working with micro front ends, it is necessary to 
 
 This repo is managed as a [monorepo](https://github.com/felippemauricio/react-components-lib-boilerplate/blob/master/docs/monorepo.md) that is composed of two packages: [**themes**](https://github.com/felippemauricio/react-components-lib-boilerplate/tree/master/packages/themes) and [**components**](https://github.com/felippemauricio/react-components-lib-boilerplate/tree/master/packages/components).
 
-## How to build project?
+## Commands
 
-* You need to run this command before the `storybook`, `lint` or `test` commands, becouse it is necessary to create links.
+You need to run this command before the `storybook`, `lint` or `test` commands, becouse it is necessary to create links.
+
+### How to build project?
 
 ```sh
   yarn build
 ```
 
-## How to build storybook?
+### How to build storybook?
 
 ```sh
   yarn storybook:build
 ```
 
-## How to show storybook?
+### How to show storybook?
 
 ```sh
   yarn storybook:start
 ```
 
-## How to run lint?
+### How to run lint?
 
 ```sh
   yarn lint
 ```
 
-## How to run tests?
+### How to run tests?
 
 ```sh
   yarn test
 ```
+
+## Libs that project depends
+
+This libs are Peer Dependencies of this project.
+
+- [Polished](https://github.com/styled-components/polished)
+- [React](https://github.com/facebook/react)
+- [React-Dom](https://github.com/facebook/react/tree/master/packages/react-dom)
+- [Styled-Components](https://github.com/styled-components/styled-components)
+- [Styled-Components-Modifiers](https://github.com/Decisiv/styled-components-modifiers)
+- [Styled-Theme](https://github.com/diegohaz/styled-theme)
+- [Styled-Tools](https://github.com/diegohaz/styled-tools)
 
 ## License
 
