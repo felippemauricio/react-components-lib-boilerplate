@@ -57,6 +57,27 @@ You need to import the **Theme** of `@react-components-lib-boilerplate/themes` a
   }
 ```
 
+## How is the component structured?
+
+We recommend that your components have the following structure, like Button.
+
+```
+  /components
+    /atoms
+      /Button
+        Button.js
+        Button.modifiers.js
+        Button.story.js
+        Button.style.js
+        Button.test.js
+        index.js
+    /molecules
+```
+
+Where:
+- Component.js: Component code, with the `PropTypes` and `DefaultProps`
+- Component.modifiers.js: Add the component modifiers, using `styled-components-modifiers` lib
+
 ## License
 
 Licensed under the MIT License, Copyright © 2019-present Felippe Maurício.
