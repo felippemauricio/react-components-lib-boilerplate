@@ -33,10 +33,11 @@
 
 To finish with reworking when working with micro front ends, it is necessary to share components between different projects. So I created this project to don\`t repeat confs  on new libs and facilitate the work of new developers.
 
+## How to use?
 
-### How is the repo structured?
+## How is the repo structured?
 
-This repo is managed as a [monorepo](https://github.com/babel/babel/blob/master/doc/design/monorepo.md) like Babel Project that is composed of two packages, themes and components.
+This repo is managed as a [monorepo](https://github.com/babel/babel/blob/master/doc/design/monorepo.md) that is composed of two packages, themes and components.
 
 ## License
 
