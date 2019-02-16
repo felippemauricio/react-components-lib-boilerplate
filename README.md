@@ -24,6 +24,9 @@
   <a href="https://github.com/airbnb/javascript">
     <img src="https://badgen.net/badge/code%20style/airbnb/fd5c63" alt="Code Style" />
   </a>
+  <a href="https://github.com/styled-components/styled-components">
+    <img src="https://img.shields.io/badge/style-%F0%9F%92%85%20styled--components-orange.svg?colorB=daa357&colorA=db748e" alt="Code Style" />
+  </a>
   <a href="https://github.com/facebook/jest">
     <img src="https://img.shields.io/badge/tested_with-jest-99424f.svg" alt="Tested with jest" />
   </a>
@@ -39,7 +42,7 @@ To finish with reworking when working with micro front ends, it is necessary to 
 ## How to create a project using this boilerplate?
 
 1. Clone this repository.
-2. Run the `script-name-replace` to change project name([more](https://github.com/felippemauricio/react-components-lib-boilerplate/blob/master/docs/script-name-replace.md)).
+2. Run the [script-name-replace](https://github.com/felippemauricio/react-components-lib-boilerplate/blob/master/docs/script-name-replace.md) to change project name.
 3. Modify and create themes on theme package.
 4. Modify and create components on components package.
 
