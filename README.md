@@ -31,7 +31,7 @@
     <img src="https://img.shields.io/badge/tested_with-jest-99424f.svg" alt="Tested with jest" />
   </a>
   <a href="https://storybook.js.org/">
-    <img src="https://github.com/storybooks/press/blob/master/badges/storybook.svg" alt="Storybook" />
+    <img src="https://cdn.jsdelivr.net/gh/storybooks/brand@master/badge/badge-storybook.svg" alt="Storybook" />
   </a>
 </p>
 
