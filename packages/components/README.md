@@ -2,7 +2,7 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/felippemauricio/react-components-lib-boilerplate/blob/master/LICENSE.md)
 [![Build Status](https://travis-ci.org/felippemauricio/react-components-lib-boilerplate.svg?branch=master)](https://travis-ci.org/felippemauricio/react-components-lib-boilerplate)
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
-[![Storybook](https://github.com/storybooks/press/blob/master/badges/storybook.svg)](https://storybook.js.org)
+[![Storybook](https://cdn.jsdelivr.net/gh/storybooks/brand@master/badge/badge-storybook.svg)](https://storybook.js.org)
 [![Code Style](https://badgen.net/badge/code%20style/airbnb/fd5c63)](https://github.com/airbnb/javascript)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/felippemauricio/react-components-lib-boilerplate/pulls)
 
