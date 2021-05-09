@@ -27,14 +27,14 @@
   "homepage": "https://github.com/felippemauricio/react-components-lib-boilerplate/packages/themes#readme",
   "license": "MIT",
   "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
     "styled-components": "^4.3.2",
     "styled-reset": "^2.0.16"
   },
   "peerDependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
     "styled-components": "^4.3.2"
   },
   "devDependencies": {
