@@ -31,7 +31,7 @@
   "license": "MIT",
   "dependencies": {
     "@react-components-lib-boilerplate/themes": "^1.0.0",
-    "polished": "^3.4.1",
+    "polished": "^4.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "styled-components": "^4.3.2",
@@ -41,7 +41,7 @@
   },
   "peerDependencies": {
     "@react-components-lib-boilerplate/themes": "^1.0.0",
-    "polished": "^3.4.1",
+    "polished": "^4.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "styled-components": "^4.3.2",
