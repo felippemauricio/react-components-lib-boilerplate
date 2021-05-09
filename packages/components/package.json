@@ -34,7 +34,7 @@
     "polished": "^3.4.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "styled-components": "^4.3.2",
+    "styled-components": "^5.0.0",
     "styled-components-modifiers": "^1.2.1",
     "styled-theme": "^0.3.3",
     "styled-tools": "^1.7.1"
@@ -44,7 +44,7 @@
     "polished": "^3.4.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "styled-components": "^4.3.2",
+    "styled-components": "^5.0.0",
     "styled-components-modifiers": "^1.2.1",
     "styled-theme": "^0.3.3",
     "styled-tools": "^1.7.1"
